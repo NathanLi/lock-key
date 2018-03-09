@@ -1,4 +1,4 @@
-const JSLock = require('./js-lock');
+const JSLock = require('../lib/index.js');
 const util = require('util');
 
 const waitTimeout = util.promisify(setTimeout);
