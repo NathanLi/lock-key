@@ -1,5 +1,5 @@
 {
-  "name": "js-lock",
+  "name": "lock-key",
   "version": "1.0.0",
   "description": "javascript lock function",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NathanLi/JS-Lock.git"
+    "url": "git+https://github.com/NathanLi/lock-key.git"
   },
   "keywords": [
     "javascrtipt",
@@ -18,9 +18,9 @@
   "author": "NathanLi",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/NathanLi/JS-Lock/issues"
+    "url": "https://github.com/NathanLi/lock-key.git/issues"
   },
-  "homepage": "https://github.com/NathanLi/JS-Lock#readme",
+  "homepage": "https://github.com/NathanLi/lock-key.git#readme",
   "dependencies": {
     "grunt": "^1.0.2",
     "grunt-cli": "^1.2.0",

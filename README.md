@@ -1,4 +1,4 @@
-# JS-Lock
+# lock-key
 
 Javascript lock function
 
@@ -6,7 +6,7 @@ Javascript lock function
 
 ```javascript
 const waitTimeout = util.promisify(setTimeout);
-const lock = JSLock.load('lockKey');
+const lock = Lock.load('lockKey');
 try {
     await lock.lock();
     await waitTimeout(1 * 1000);
